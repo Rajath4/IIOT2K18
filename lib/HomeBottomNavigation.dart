@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:iiot2k18/Exhibition/ExhibitionHome.dart';
 import 'package:iiot2k18/Schedule/ScheduleComingSoon.dart';
 import 'package:iiot2k18/developer/DeveloperHome.dart';
 import 'package:iiot2k18/home/HomePage.dart';
@@ -133,7 +134,7 @@ class _BottomNavigationDemoState extends State<BottomNavigationDemo>
         title: 'Exhibition',
         color: Colors.teal,
         vsync: this,
-        currentTab: ScheduleComingSoon(),
+        currentTab: ExhibitionHome(),
       ),
       new NavigationIconView(
         activeIcon: const Icon(Icons.account_balance_wallet),

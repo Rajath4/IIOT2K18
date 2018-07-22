@@ -29,7 +29,7 @@ class ShowRemaing extends StatelessWidget {
                 Center(
                     child: Text(
                   name,
-                  style: TextStyle(color: Colors.orange, fontSize: 20.0),
+                      style: TextStyle(color: Colors.orange, fontSize: 16.0),
                 )),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
